@@ -1,16 +1,19 @@
 #include <Wire.h>
 
+
+const int hotPlugPin = 31;
+
 void setup() {
 
   Wire.begin();
   SerialUSB.begin(9600);
-  pinMode(31, OUTPUT);
+  pinMode(hotPlugPin, OUTPUT);
 
 }
 
 void loop() {
 
-  digitalWrite(31, HIGH);
+  digitalWrite(hotPlugPin, HIGH);
 
   delay(10);
 

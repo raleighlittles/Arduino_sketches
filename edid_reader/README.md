@@ -1,3 +1,9 @@
+# About
+
+This is an Arduino sketch for reading Extended Display Identification Data (EDID) https://en.wikipedia.org/wiki/Extended_Display_Identification_Data
+
+It requires a compatible breakout board.
+
 # Connections
 
 * HDMI Breakout Board Pin 15 (SCL)- Arduino Pin 21 (SCL)
